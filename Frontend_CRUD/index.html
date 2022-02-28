@@ -34,7 +34,6 @@
               </div>  
               <div class="mb-3">
                 <label for="recipient-lastname" class="col-form-label">Sesso:</label><br>
-                
               <select id="gender">
               <option value="M">M</option>
               <option value="F">F</option>
@@ -43,7 +42,6 @@
             </form>
           </div>
           <div class="modal-footer">
- 
             <button type="button" class="btn btn-primary" id="btn">aggiungi</button>
           </div>
         </div>
@@ -60,13 +58,13 @@
             <td></td>
             <td></td>
             <td>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">AGGIUNGI</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">AGGIUNGI</button>
             </td>
         </tr>
     </table>
 
     <!--questa e' la tabella dove finirano i dati-->
-    <table class="table">
+    <table class="table" id="dtBasicExample">
         <thead>
           <th>ID</th>
           <th>NOME</th>
@@ -78,7 +76,17 @@
         </tbody>
       </table>
     </div>
-
+    <div>
+    <nav aria-label="...">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">1</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+      </ul>
+    </nav>
+    </div>  
 </body>
     </ceneter>
 </html>
